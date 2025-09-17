@@ -1,0 +1,2529 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta name="robots" content="noindex">
+  
+  
+    
+      <title>31.3.96.40 - Host Summary - Censys</title>
+    
+    <meta name="description" content="Summary of 31.3.96.40">
+  
+  
+  
+    <!-- OG Card -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    
+    <meta property="og:title" content="31.3.96.40 - Censys">
+    
+    <meta property="og:description" content="Summary of 31.3.96.40">
+    <meta property="og:url" content="https://search.censys.io/hosts/31.3.96.40">
+    <meta property="og:site_name" content="Censys">
+    <meta property="og:image" content="https://search.censys.io/static/img/og-censys-mark-2025.png">
+    <meta property="og:image:height" content="735">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image" content="https://search.censys.io/static/img/censys-mark-2025.png">
+    <meta property="og:image:height" content="512">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image" content="https://search.censys.io/static/img/censys-2025.png">
+    <meta property="og:image:height" content="162">
+    <meta property="og:image:width" content="750">
+    <meta property="og:image" content="https://search.censys.io/static/img/censys-mark-2025.png">
+    <meta property="og:image:height" content="180">
+    <meta property="og:image:width" content="180">
+  
+  
+    <meta property="og:updated_time" content="2025-09-17 06:48:09">
+  
+
+  
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@censysio">
+    <meta name="twitter:image" content="https://search.censys.io/static/img/censys-mark-2025.png">
+    <meta name="twitter:image:alt" content="Censys Logo">
+  
+  
+<!-- Open Search -->
+<link rel="search" href="https://search.censys.io/static/xml/search.xml" type="application/opensearchdescription+xml" title="Censys">
+
+  
+  
+  
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="https://search.censys.io/static/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://search.censys.io/static/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://search.censys.io/static/img/favicon-2025-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://search.censys.io/static/img/favicon-2025-16x16.png">
+  <link rel="icon" href="https://search.censys.io/static/img/censys-mark-2025.png">
+  <link rel="manifest" href="https://search.censys.io/static/site.webmanifest">
+  <link rel="mask-icon" href="https://search.censys.io/static/img/safari-pinned-tab.svg" color="#ff7a37">
+  <meta name="msapplication-TileColor" content="#ff7a37">
+  <meta name="msapplication-TileImage" content="https://search.censys.io/static/img/mstile-150x150.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" charset="utf-8" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/bootstrap.min.css">
+  <link rel="stylesheet" charset="utf-8" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/material-kit.min.css">
+  <link rel="stylesheet" charset="utf-8" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/custom.css">
+
+  <link rel="stylesheet" charset="utf-8" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/footer.css">
+  <link rel="stylesheet" charset="utf-8" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/footer-light.css">
+  
+  
+
+  <!-- Fonts and icons -->
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link rel="stylesheet" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/css2.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0">
+  <link rel="stylesheet" as="style" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/font-awesome.min_002.css" onload="this.rel='stylesheet'"><link rel="stylesheet" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/github.min.css">
+  <style>
+    .badge.observed, .badge.perspective {
+      background-color: rgba(153, 153, 153, .60);
+      font-family: "Roboto Mono";
+      text-transform: capitalize;
+    }
+
+    .badge.observed:hover, .badge.perspective:hover {
+      background-color: rgba(153, 153, 153, 1);
+      cursor: default;
+    }
+
+    #hostModal, #deleteCommentModal, .modal-footer {
+      text-align: center;
+    }
+    .modal-content .modal-body {
+      padding-top: 10px;
+      padding-bottom: 15px;
+    }
+    .modal-dialog-centered {
+      margin-top: calc(50vh - 150px) !important;
+    }
+    .modal-footer {
+      padding-bottom: 15px !important;
+    }
+    .form-group {
+      margin: 0;
+    }
+    label.control-label {
+      margin: 0;
+    }
+    .observation-container {
+        margin-bottom: 15px;
+    }
+    .tag-badge {
+      margin-top: 3px;
+    }
+    code.html2text {
+      background-color: #f5f5f5;
+      border-radius: 3px;
+      padding: 2px 4px;
+      font-size: 90%;
+    }
+  </style>
+
+  <script src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="https://search.censys.io/static/js/jquery.min.js"><\/script>');
+  </script>
+<link rel="stylesheet" href="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/font-awesome.min.css"></head>
+<body>
+
+  
+  <nav class="NavBar NavBar--fixed-top navbar-fixed-top">
+    <div class="container NavBar__container">
+      
+      <a href="https://search.censys.io/">
+        <img class="NavBar__logo logo" src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/censys-2025.svg" alt="Censys" title="logo">
+        <img class="NavBar__logo logo logo-square" src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/censys-mark-2025.svg" alt="Censys" title="logo">
+      </a>
+      
+
+      
+        
+  
+  
+  
+
+  <div class="NavBar__search-boxes-both">
+    <form id="search" class="NavBar__search-form" method="get" action="/search" spellcheck="false">
+      <div class="dropdown" id="index-picker">
+        <!-- Dropdown Button with Resource Names -->
+        <button id="NavBar__search-index-picker" class="NavBar__search-index-picker focus-outline" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Resource Type Dropdown" type="button">
+          <span class="hide-on-mobile"><i class="fa fa-fw fa-search" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i></span>
+            <span id="resource-hosts" class="hide-on-mobile resource-button">Hosts</span>
+            <span class="hide-on-desktop"><i class="fa fa-fw fa-desktop" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i></span>
+            <span id="resource-certs" class="hide-on-mobile resource-button" hidden="">Certificates</span>
+            <span class="hide-on-desktop" hidden=""><i class="fa fa-fw fa-certificate" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i></span>
+          <span class="hide-on-mobile"><i class="fa fa-fw fa-angle-down" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i></span>
+        </button>
+        <!-- Dropdown Content -->
+        <ul class="DropdownMenu dropdown-menu pull-left" aria-labelledby="NavBar__search-index-picker">
+          <li class="DropdownMenu__item DropdownMenu__item--no-link">
+            <div class="DropdownMenu__header">
+              Select Dataset
+            </div>
+          </li>
+          <li class="DropdownMenu__item">
+            <a id="dropdown-host" href="#">
+              <span class="DropdownMenu__item-icon"><i class="fa fa-fw fa-desktop" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i></span>
+              Hosts
+            </a>
+          </li>
+          <li class="DropdownMenu__item">
+            <a id="dropdown-certificates" href="#">
+              <span class="DropdownMenu__item-icon"><i class="fa fa-fw fa-certificate" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i></span>
+              Certificates
+            </a>
+          </li>
+        </ul>
+      </div>
+      <input name="resource" id="resource" aria-label="resource" value="hosts" hidden="">
+
+
+
+
+<div class="dropdown" id="search-settings">
+  <button id="search-settings-dropdown-menu" class="NavBar__button NavBar__button_border focus-outline" data-toggle="dropdown" aria-label="Search Settings" aria-haspopup="true" aria-expanded="false" type="button">
+    <i class="fa fa-fw fa-cog" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i>
+  </button>
+  <div>
+    <ul class="DropdownMenu dropdown-menu">
+      <li class="DropdownMenu__item DropdownMenu__item--no-link">
+        <div class="DropdownMenu__header">
+          Settings for Search Results
+        </div>
+      </li>
+      <li role="separator" class="DropdownMenu__divider"></li>
+      <li class="DropdownMenu__item DropdownMenu__item--no-link setting">
+        <div class="setting-label">Sort Order:</div>
+        <div class="btn-group btn-group-xs setting-values focus-outline">
+          <input type="radio" class="btn-check" name="sort" value="RELEVANCE" id="sort_order_rev" autocomplete="off" checked="checked">
+          <label class="btn btn-white" for="sort_order_rev">Relevance</label>
+
+          <input tabindex="0" type="radio" class="btn-check" name="sort" value="ASCENDING" id="sort_order_asc" autocomplete="off">
+          <label class="btn btn-white" for="sort_order_asc">Ascending</label>
+
+          <input tabindex="0" type="radio" class="btn-check" name="sort" value="DESCENDING" id="sort_order_desc" autocomplete="off">
+          <label class="btn btn-white" for="sort_order_desc">Descending</label>
+
+          
+        </div>
+      </li>
+     <li class="DropdownMenu__item DropdownMenu__item--no-link setting">
+        <div class="setting-label">Per Page:</div>
+        <div class="btn-group btn-group-xs setting-values focus-outline" role="group" aria-label="Results Per Page">
+          <input type="radio" class="btn-check" name="per_page" value="25" id="per_page_25" autocomplete="off" checked="checked">
+          <label class="btn btn-white" for="per_page_25">25</label>
+
+          <input type="radio" class="btn-check" name="per_page" value="50" id="per_page_50" autocomplete="off">
+          <label class="btn btn-white" for="per_page_50">50</label>
+
+          <input type="radio" class="btn-check" name="per_page" value="100" id="per_page_100" autocomplete="off">
+          <label class="btn  btn-white" for="per_page_100">100</label>
+        </div>
+      </li>
+      <li class="DropdownMenu__item DropdownMenu__item--no-link setting">
+        <div class="setting-label">Virtual Hosts:<a href="https://support.censys.io/hc/en-us/articles/4411773845524" target="_blank" rel="noopener"><i class="fa fa-fw fa-question-circle" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Identified by both a name and an IP address.&lt;br&gt;&lt;small&gt;&lt;strong&gt;Click to learn more.&lt;/strong&gt;&lt;/small&gt;"></i></a></div>
+        <div class="btn-group btn-group-xs setting-values focus-outline" role="group" aria-label="Options for Virtual Hosts">
+          <input type="radio" class="btn-check" name="virtual_hosts" value="EXCLUDE" id="virtual_hosts_exclude" autocomplete="off" checked="checked">
+          <label class="btn btn-white" for="virtual_hosts_exclude">Exclude</label>
+
+          <input type="radio" class="btn-check" name="virtual_hosts" value="INCLUDE" id="virtual_hosts_include" autocomplete="off">
+          <label class="btn btn-white" for="virtual_hosts_include">Include</label>
+
+          <input type="radio" class="btn-check" name="virtual_hosts" value="ONLY" id="virtual_hosts_only" autocomplete="off">
+          <label class="btn  btn-white" for="virtual_hosts_only">Only</label>
+        </div>
+      </li>
+    
+    </ul>
+  </div>
+</div>
+<input class="NavBar__search-box" type="text" placeholder="Search" aria-label="Search" name="q" id="q" value="31.3.96.40" autocomplete="off" onfocus="this.selectionStart = this.selectionEnd = this.value.length;">
+      <button class="NavBar__search-clear focus-outline" id="clear-query-button" type="button" aria-label="Clear Query">
+        <i class="fa fa-fw fa-close" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i>
+      </button>
+      <button class="NavBar__search-multiline-toggle focus-outline" id="multiline-toggle" type="button" aria-label="Expand">
+        <i class="fa fa-fw fa-expand" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" id="expand-icon" data-original-title="" title=""></i>
+      </button>
+      
+
+<div class="dropdown" id="export-query">
+  <!-- add an onclick to button -->
+  <button id="export-query-dropdown-menu" class="NavBar__button NavBar__button_border focus-outline" data-toggle="dropdown" aria-label="Export Query" aria-haspopup="true" aria-expanded="false" type="button" style="display: block;">
+    <i class="fa fa-fw fa-terminal" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i>
+  </button>
+  <div>
+    <ul class="DropdownMenu dropdown-menu dropdown-menu-right">
+      <li class="DropdownMenu__item DropdownMenu__item--no-link">
+        <div class="DropdownMenu__header">
+          Export Query as cURL
+        <button class="NavBar__search-copy focus-outline" id="copy-query-button" type="button" aria-label="Copy Query" onclick="copyToClipboard('copy-text')">
+          <i class="fa fa-fw fa-clipboard" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i>
+        </button>
+        </div>
+      </li>
+      <li role="separator" class="DropdownMenu__divider"></li>
+      <li class="DropdownMenu__item DropdownMenu__item--no-link">
+        <div class="DropdownMenu__header">
+        </div>
+        <div class="DropdownMenu__inner-text-box">
+          <div class="copy-text">
+            <pre id="copy-text">curl -g -X 'GET' \<br>'https://search.censys.io/api/v2/hosts/search?per_page=25&amp;virtual_hosts=EXCLUDE&amp;sort=RELEVANCE&amp;q=itsecgames.com' \<br>-H 'Accept: application/json' \<br>--user "$CENSYS_API_ID:$CENSYS_API_SECRET"</pre>
+          </div>
+        </div>
+        <div class="DropdownMenu__link">
+          <a href="https://search.censys.io/account/api"> Get API Credentials </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <script>
+  function copyToClipboard(containerid) {
+    var textToCopy = document.getElementById(containerid).innerText;
+    navigator.clipboard.writeText(textToCopy);
+  }
+  </script>
+
+  <script>
+    /* converts to api */
+    var params = new URLSearchParams(window.location.search);
+
+    function htmlEncode(s) {
+      return s.replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/'/g, '&quot;')
+        .replace(/"/g, '&#34;');
+    }
+
+    function getV2ApiCurlString(apiResource) {
+      var apiParams = new URLSearchParams();
+
+      if (params.get("per_page") !== null) {
+        apiParams.set("per_page", params.get("per_page"));
+      }
+      if (params.get("virtual_hosts") !== null) {
+        apiParams.set("virtual_hosts", params.get("virtual_hosts"));
+      }
+      if (params.get("sort") !== null) {
+        apiParams.set("sort", params.get("sort"));
+      }
+      if (params.get("cursor") !== null) {
+        apiParams.set("cursor", params.get("cursor"));
+      }
+      apiParams.set("q", params.get("q", ""));
+
+      exportString = "curl -g -X 'GET' \\<br>";
+      exportString += "'https://search.censys.io/api/v2/" + apiResource + "/search?";
+      exportString += apiParams.toString() + "' \\<br>";
+      exportString += "-H 'Accept: application/json' \\<br>";
+      exportString += "--user \"$CENSYS_API_ID:$CENSYS_API_SECRET\"";
+      return exportString
+    }
+
+    if (params.get("resource") === "hosts") {
+      document.getElementById('copy-text').innerHTML = getV2ApiCurlString("hosts");
+    }
+    else if (params.get("resource") === "certificates") {
+      document.getElementById('copy-text').innerHTML = getV2ApiCurlString("certificates");
+    }
+  </script>
+
+  <script type="text/javascript">
+  /* hides button if no query */
+    var url = window.location.href;
+    var msg = document.getElementById('export-query-dropdown-menu');
+    /* update to check for resource=hosts and certs instead of length */
+    if( url.search("resource=hosts") != -1 ||
+      url.search("resource=certificates") != -1 )  {
+        msg.style.display = "block";
+    }
+    else {
+      msg.style.display = "none";
+    }
+  </script>
+
+</div>
+
+      <input class="NavBar__search-submit focus-outline" id="submit-button" type="submit" value="Search">
+    </form>
+
+    <div class="hide-on-mobile hide-on-desktop" id="msf">
+      <textarea rows="1" class="NavBar__search-box-multi" placeholder="Press enter for more lines; Shift+Enter executes the search from this box." aria-label="Search" name="qm" id="qm" autocomplete="off" onfocus="this.selectionStart = this.selectionEnd = this.value.length;" style="display: none;">        31.3.96.40
+        </textarea><div class="EasyMDEContainer" role="application"><div class="editor-toolbar" role="toolbar"><button class="bold" type="button" title="Bold (Ctrl-B)" aria-label="Bold" tabindex="-1"><i class="fa fa-bold"></i></button><button class="italic" type="button" title="Italic (Ctrl-I)" aria-label="Italic" tabindex="-1"><i class="fa fa-italic"></i></button><button class="heading" type="button" title="Heading (Ctrl-H)" aria-label="Heading" tabindex="-1"><i class="fa fa-header fa-heading"></i></button><button class="unordered-list" type="button" title="Generic List (Ctrl-L)" aria-label="Generic List" tabindex="-1"><i class="fa fa-list-ul"></i></button><button class="code" type="button" title="Code (Ctrl-Alt-C)" aria-label="Code" tabindex="-1"><i class="fa fa-code"></i></button><button class="link" type="button" title="Create Link (Ctrl-K)" aria-label="Create Link" tabindex="-1"><i class="fa fa-link"></i></button><button class="image" type="button" title="Insert Image (Ctrl-Alt-I)" aria-label="Insert Image" tabindex="-1"><i class="fa fa-image"></i></button><button class="preview no-disable" type="button" title="Toggle Preview (Ctrl-P)" aria-label="Toggle Preview" tabindex="-1"><i class="fa fa-eye"></i></button><button class="guide no-disable" type="button" title="Markdown Guide" aria-label="Markdown Guide" tabindex="-1"><i class="fa fa-question-circle"></i></button></div><div class="CodeMirror cm-s-easymde CodeMirror-wrap" translate="no"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea style="position: absolute; bottom: -1em; padding: 0px; width: 1px; height: 1em; min-height: 1em; outline: none;" wrap="off" autocorrect="off" autocapitalize="none" spellcheck="false" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="display: block; bottom: 0px;"><div style="min-width: 1px; height: 56px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true" style="min-height: 300px;"><div class="CodeMirror-sizer" style="margin-left: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div style="position: relative; outline: none;" role="presentation"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent;"></div><div class="CodeMirror-gutters" style="display: none;"></div></div></div><div class="editor-preview-side editor-preview"></div><div class="editor-statusbar"><span class="autosave"></span><span class="lines">2</span><span class="words">4</span><span class="cursor">1:1</span></div></div>
+    </div>
+  </div>
+
+      <div class="NavBar__unauthenticated-actions">
+          <a class="NavBar__register-link" href="https://search.censys.io/register">Register</a>
+          <a class="NavBar__login-link" href="https://censys.io/login?came_from=https%3A%2F%2Fsearch.censys.io&amp;from_censys_owned_external=True" onclick="window.location.href = 'https://censys.io/login?from_censys_owned_external=True&amp;came_from=' + encodeURIComponent(window.location); return false;">Log In</a>
+        </div></div>
+    
+  </nav>
+
+    <div id="content">
+        
+  <div class="search-bar query-below-blue-bar query">
+  </div> <!-- /search-bar -->
+
+  <div>
+    
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </div>
+    
+  <!-- Modal -->
+  <div class="modal fade" id="hostModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+      <div class="modal-content"></div>
+    </div>
+  </div>
+  <div class="page-content">
+    <h1 style="margin-bottom: 0">
+      
+        31.3.96.40
+      
+      
+    </h1>
+    
+        <div class="observation-container">
+            <span style="color: grey; font-size: 90%">
+                As of: <strong>Sep 17, 2025 6:48am UTC</strong> |
+                
+                    Latest
+                
+            </span>
+        </div>
+    
+    <div>
+        
+    </div>
+    <div class="badges-container" style="overflow: visible;">
+      <div class="tags-container">
+          
+      </div>
+      
+          
+      
+    </div>
+    <!-- Nav tabs -->
+    <ul class="nav-topmenu">
+      <li role="presentation" class="active">
+        <a href="https://search.censys.io/hosts/31.3.96.40?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z">
+          <i class="fa fa-fw fa-desktop" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i> Summary
+        </a>
+      </li>
+      
+      <li role="presentation" class="">
+        <a href="https://search.censys.io/hosts/31.3.96.40/events?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z">
+          <i class="fa fa-fw fa-history" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i> History
+        </a>
+      </li>
+      <li role="presentation" class="">
+        <a href="https://search.censys.io/hosts/31.3.96.40/whois?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z">
+          <i class="fa fa-fw fa-id-badge" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i> WHOIS
+        </a>
+      </li>
+      <li role="presentation" class="">
+        <a href="https://search.censys.io/hosts/31.3.96.40/explore?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z">
+          <i class="fa fa-fw fa-binoculars" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i> Explore
+        </a>
+      </li>
+      <li role="presentation" class="dropdown  pull-right last right-menu-option" style="border-bottom: none">
+        <a href="#" class="dropdown-toggle" id="rawDataTab" data-toggle="dropdown" aria-controls="rawDataTab-contents" aria-expanded="false">
+          <i class="fa fa-fw fa-folder-open" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="bottom" data-original-title="" title=""></i> Raw Data<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu DropdownMenu" aria-labelledby="rawDataTab" id="rawDataTab-contents">
+          <li class="DropdownMenu__item">
+            <a href="https://search.censys.io/hosts/31.3.96.40/data/table?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z">
+              <i class="fa fa-fw fa-table" aria-hidden="true"></i> Table
+            </a>
+          </li>
+          <li class="DropdownMenu__item">
+            <a href="https://search.censys.io/hosts/31.3.96.40/data/json?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z">
+              <i class="fa fa-fw fa-bolt" aria-hidden="true"></i> JSON
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+    </ul>
+
+    
+
+  
+
+  <style>
+    #map-canvas {
+      width: 100%;
+      height: 250px;
+      padding-top: 10px;
+    }
+
+    .pill-tool-tip {
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    .software-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .badge.transport {
+      background-color: rgba(255, 97, 19, .60);
+    }
+
+    .btn.btn-info.link {
+        background-color: #4285f4;
+        margin-right: 10px;
+        margin-bottom: 0;
+        margin-top: 0;
+        cursor: pointer;
+        padding: 2px 10px;
+    }
+
+    .software-header a {
+        margin-left: 10px;
+    }
+
+    .badge.transport:hover {
+      /* background-color: rgba(255, 97, 19, 1); */
+      cursor: default;
+    }
+  </style>
+  <div class="row">
+    <div class="col-md-8 host-details">
+      <div style="padding-top: 8px"></div>
+      <h4>Basic Information</h4>
+      <dl class="dl dl-horizontal">
+        
+        
+          <dt>Forward DNS</dt>
+		  <dd>web.mmebvba.com, www.mmebvba.com, www.mmebv.be, www.mmesec.be, www.mmebv.com, ...</dd>
+        
+        
+          
+            <dt>Routing</dt>
+            <dd>
+              
+              <a href="https://search.censys.io/search?q=ip%3A+%6031.3.96.0%2F22%60&amp;resource=hosts">
+                31.3.96.0/22
+              </a>
+              
+                
+                
+                  
+                  &nbsp;via&nbsp;<a href="https://search.censys.io/search?q=autonomous_system.name%3D%60TRANSIP-AS+Amsterdam%2C+the+Netherlands%60&amp;resource=hosts">TRANSIP-AS Amsterdam, the Netherlands, NL</a>
+                (<a href="https://search.censys.io/search?q=autonomous_system.asn%3A+20857&amp;resource=hosts">AS20857</a>)
+                
+              
+            </dd>
+          
+        
+        
+          
+            <dt>OS</dt>
+            <dd>linux</dd>
+          
+        
+        <dt>Services (3)</dt>
+        
+          <dd>
+            
+              
+              <a href="#22-TCP-SSH">22/SSH</a><span class="bigcomma">,</span>
+            
+              
+              <a href="#80-TCP-HTTP">80/HTTP</a><span class="bigcomma">,</span>
+            
+              
+              <a href="#443-TCP-HTTP">443/HTTP</a>
+            
+			  
+
+          </dd>
+        
+        
+          <dt id="basic-info-labels">Labels</dt>
+          <dd>
+            
+              
+              <a href="https://search.censys.io/search?q=labels%3A+%60addthis%60&amp;resource=hosts">
+                <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid">Addthis</span>
+			  </a>
+            
+              
+              <a href="https://search.censys.io/search?q=labels%3A+%60drupal%60&amp;resource=hosts">
+                <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid">Drupal</span>
+			  </a>
+            
+              
+              <a href="https://search.censys.io/search?q=labels%3A+%60jquery%60&amp;resource=hosts">
+                <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid">Jquery</span>
+			  </a>
+            
+              
+              <a href="https://search.censys.io/search?q=labels%3A+%60remote-access%60&amp;resource=hosts">
+                <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid">Remote Access</span>
+			  </a>
+            
+              
+              <a href="https://search.censys.io/search?q=labels%3A+%60supersized%60&amp;resource=hosts">
+                <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid">Supersized</span>
+			  </a>
+            
+          </dd>
+        
+        
+        
+      </dl>
+
+      
+        
+  
+  
+  <div class="protocol-details">
+    <h2 id="22-TCP-SSH">
+      <div class="pull-left">
+        <strong>SSH</strong> 22/TCP
+      </div>
+      <div class="pull-right">
+        
+        
+          <span style="vertical-align: middle; font-size: small; font-family: 'Roboto', 'open sans', helvetica, sans-serif">09/17/2025 06:35 UTC</span>
+        
+      </div>
+      <div class="clearfix"></div>
+    </h2>
+    <div>
+    
+    
+      
+      
+        <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid;">Remote Access</span>
+      
+    
+    </div>
+    <hr>
+    <div>
+      <div class="pull-right">
+        <a class="btn btn-info btn-sm" href="https://search.censys.io/hosts/31.3.96.40/data/table?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z#22-TCP-SSH">
+          <span aria-hidden="true"></span> View All Data
+        </a>
+        
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+  
+    
+  
+  
+    
+  <div class="host-section">
+    
+      <h4>Software</h4>
+    
+    <div class="dl-horizontal dl">
+        <h5 class="software-header">
+            
+                
+                <a class="btn btn-info btn-sm link fa fa-search" data-toggle="tooltip" data-placement="bottom" title="" aria-label="Search Censys for hosts with this software CPE" href="https://search.censys.io/search?q=services.software.uniform_resource_identifier%3A+%60cpe%3A2.3%3Ao%3A%2A%3Alinux%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%60&amp;resource=hosts" data-original-title="Search Censys for hosts with this software CPE">
+                </a>
+            
+            <span>
+                linux
+                
+            </span>
+            
+                <a class="fa fa-external-link" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&amp;keyword=cpe%3A2.3%3Ao%3A%2A%3Alinux%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A" target="__blank" rel="noopener" data-toggle="tooltip" data-placement="bottom" title="" aria-label="Search CPE catalog for this software" data-original-title="Search CPE catalog for this software">
+                </a>
+            
+        </h5>
+      
+        
+        
+        
+        <h5 class="software-header">
+            
+                
+                <a class="btn btn-info btn-sm link fa fa-search" data-toggle="tooltip" data-placement="bottom" title="" aria-label="Search Censys for hosts with this software CPE" href="https://search.censys.io/search?q=services.software.uniform_resource_identifier%3A+%60cpe%3A2.3%3Aa%3Aopenbsd%3Aopenssh%3A6.7p1%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%60&amp;resource=hosts" data-original-title="Search Censys for hosts with this software CPE">
+                </a>
+            
+            <span>OpenBSD
+                OpenSSH
+                6.7p1
+            </span>
+            
+                <a class="fa fa-external-link" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&amp;keyword=cpe%3A2.3%3Aa%3Aopenbsd%3Aopenssh%3A6.7p1%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A" target="__blank" rel="noopener" data-toggle="tooltip" data-placement="bottom" title="" aria-label="Search CPE catalog for this software" data-original-title="Search CPE catalog for this software">
+                </a>
+            
+        </h5>
+      </div>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  <div class="host-section">
+    
+      <h4>Details</h4>
+    
+    <div class="dl-horizontal dl">
+        <h5>Host Key</h5>
+    <dl>
+      
+  
+    <dt>Algorithm</dt>
+    
+  <dd>
+    
+    ecdsa-sha2-nistp256
+    
+    
+  </dd>
+
+  
+
+      
+          
+          
+            
+  
+    <dt>Fingerprint</dt>
+    
+  <dd>
+    <a href="https://search.censys.io/search?q=services.ssh.server_host_key.fingerprint_sha256%3A+4e3e9c452f82ea53753d084db33d4d80d07948b1ea4765e4e07e37ade1d678be&amp;resource=hosts" target="_self">
+    4e3e9c452f82ea53753d084db33d4d80d07948b1ea4765e4e07e37ade1d678be
+    </a>
+    
+  </dd>
+
+  
+
+          
+      
+    </dl>
+    <h5>Negotiated</h5>
+    <dl>
+      
+  
+    <dt>Key Exchange</dt>
+    
+  <dd>
+    
+    curve25519-sha256@libssh.org
+    
+    
+  </dd>
+
+  
+
+      
+      
+      <dt>Symmetric Cipher</dt>
+      <dd>
+        aes128-ctr [<i class="fa fa-fw fa-upload" aria-hidden="true"></i>]
+        aes128-ctr [<i class="fa fa-fw fa-download" aria-hidden="true"></i>]
+      </dd>
+      <dt>MAC</dt>
+      <dd>
+        hmac-sha2-256 [<i class="fa fa-fw fa-upload" aria-hidden="true"></i>]
+        hmac-sha2-256 [<i class="fa fa-fw fa-download" aria-hidden="true"></i>]
+      </dd>
+    </dl>
+      </div>
+  </div>
+
+  
+
+
+  
+  
+
+
+      
+        
+  
+  
+  <div class="protocol-details">
+    <h2 id="80-TCP-HTTP">
+      <div class="pull-left">
+        <strong>HTTP</strong> 80/TCP
+      </div>
+      <div class="pull-right">
+        
+        
+          <span style="vertical-align: middle; font-size: small; font-family: 'Roboto', 'open sans', helvetica, sans-serif">09/17/2025 06:48 UTC</span>
+        
+      </div>
+      <div class="clearfix"></div>
+    </h2>
+    <div>
+    
+    
+      
+      
+        <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid;">Addthis</span>
+      
+        <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid;">Drupal</span>
+      
+        <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid;">Jquery</span>
+      
+        <span class="badge badge-pill badge-info pill-tool-tip" style="background-color: #fff; color: #777; border-color: #777; border: 1px solid;">Supersized</span>
+      
+    
+    </div>
+    <hr>
+    <div>
+      <div class="pull-right">
+        <a class="btn btn-info btn-sm" href="https://search.censys.io/hosts/31.3.96.40/data/table?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z#80-TCP-HTTP">
+          <span aria-hidden="true"></span> View All Data
+        </a>
+        
+          <a class="btn btn-info btn-sm" onclick="leavingModal('http://31.3.96.40/')">
+            <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Go
+          </a>
+        
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+  
+    
+  
+  
+    
+  <div class="host-section">
+    
+      <h4>Software</h4>
+    
+    <div class="dl-horizontal dl">
+        <h5 class="software-header">
+            
+                
+                <a class="btn btn-info btn-sm link fa fa-search" data-toggle="tooltip" data-placement="bottom" title="" aria-label="Search Censys for hosts with this software CPE" href="https://search.censys.io/search?q=services.software.uniform_resource_identifier%3A+%60cpe%3A2.3%3Aa%3Aapache%3Ahttp_server%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%60&amp;resource=hosts" data-original-title="Search Censys for hosts with this software CPE">
+                </a>
+            
+            <span>Apache
+                HTTPD
+                
+            </span>
+            
+                <a class="fa fa-external-link" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&amp;keyword=cpe%3A2.3%3Aa%3Aapache%3Ahttp_server%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A" target="__blank" rel="noopener" data-toggle="tooltip" data-placement="bottom" title="" aria-label="Search CPE catalog for this software" data-original-title="Search CPE catalog for this software">
+                </a>
+            
+        </h5>
+      </div>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  <div class="host-section">
+    
+      <h4>Details</h4>
+    
+    <div class="dl-horizontal dl">
+        <h5>http://31.3.96.40/</h5>
+  <dl>
+      <dt>Status</dt>
+      <dd>200&nbsp;&nbsp;OK</dd>
+      
+    
+      
+  
+  
+
+    
+    
+    
+      
+      
+        
+      
+      
+        
+      
+      
+        
+      
+      
+         
+      
+      
+         
+      
+      
+        
+      
+      
+        
+      
+      
+        
+      
+      
+        
+      
+      
+        
+      
+      
+
+      
+      
+      
+
+      
+      
+  
+    <dt>Body Hash</dt>
+    
+  <dd>
+    
+    <pre>sha1:7fb81cbe3c6976de4bdbfc681c3063791b340024</pre>
+    
+    
+  </dd>
+
+  
+
+    
+      
+      
+
+      
+      
+      
+
+      
+      
+  
+    <dt>HTML Title</dt>
+    
+  <dd>
+    
+    <pre>MME | Security Audits &amp; Training</pre>
+    
+    
+  </dd>
+
+  
+
+    
+  
+
+    
+    
+    
+      
+<dt>Response Body</dt>
+<dd>
+  <button class="btn btn-xs btn-info" style="margin-top: 0; margin-bottom: 0;" data-toggle="collapse" data-target="#sha1-7fb81cbe3c6976de4bdbfc681c3063791b340024-80" aria-controls="sha1-7fb81cbe3c6976de4bdbfc681c3063791b340024-80" aria-expanded="false">
+    Expand
+  </button>
+  <div class="collapse" id="sha1-7fb81cbe3c6976de4bdbfc681c3063791b340024-80">
+    <pre>      <code class="language-markdown html2text hljs">Jump to navigation
+
+[<span class="hljs-string">![Home</span>](<span class="hljs-link">http://31.3.96.40/sites/all/themes/mme/logo.png</span>)](<span class="hljs-link">/ "Home"</span>)
+
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">Home</span>](<span class="hljs-link">/</span>)
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">About</span>](<span class="hljs-link">/about</span>)
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">Audits</span>](<span class="hljs-link">/security-audits "Security Audits"</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Cyber Security Scan</span>](<span class="hljs-link">/audits/full-security-audit</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Vulnerability Assessment</span>](<span class="hljs-link">/audits/vulnerability-assessment</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Penetration Testing</span>](<span class="hljs-link">/audits/penetration-testing</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Social Engineering Campaigns</span>](<span class="hljs-link">/audits/social-engineering-campaigns</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Web Security Testing</span>](<span class="hljs-link">/audits/web-security-testing</span>)
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">Training</span>](<span class="hljs-link">/security-training "Security Training"</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">User Awareness Training</span>](<span class="hljs-link">/training/user-awareness</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Ethical Hacking BOOTCAMP</span>](<span class="hljs-link">/training/ethical-hacking-bootcamp</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Cyber Security BOOTCAMP</span>](<span class="hljs-link">/training/cyber-security-bootcamp</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Web Security BOOTCAMP</span>](<span class="hljs-link">/training/web-security-bootcamp</span>)
+<span class="hljs-bullet">  *</span> Software
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Managed Security Awareness</span>](<span class="hljs-link">/software/managed-security-awareness</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Vulnerability Assessment Solution</span>](<span class="hljs-link">/software/vulnerability-assessment-solution "Security Software"</span>)
+<span class="hljs-bullet">    *</span> [<span class="hljs-string">Web Security Testing Framework</span>](<span class="hljs-link">/software/web-security-testing-framework</span>)
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">News</span>](<span class="hljs-link">/news-items</span>)
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">Contact</span>](<span class="hljs-link">/contact</span>)
+
+<span class="hljs-bullet">  *</span> ## NIS2 Compliance
+
+Empower your company's NIS2 compliance journey with this comprehensive
+<span class="hljs-strong">**assessment**</span>. Strengthen defenses, identify vulnerabilities, and ensure a
+secure digital landscape!
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">https://www.mmesec.com/gdpr</span>)
+
+<span class="hljs-bullet">  *</span> ## Technical Awareness for IT Staff
+
+The most advanced and up-to-date <span class="hljs-strong">**cyber security training**</span> ever organized,
+taught by trainers who perform security audits and penetration tests on a
+daily basis!
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">https://www.mmesec.com/training/ethical-hacking-bootcamp</span>)
+
+<span class="hljs-bullet">  *</span> ## MME CyberClass
+
+Attend our <span class="hljs-strong">**awareness training**</span> in a virtual classroom.  
+Attack vulnerable targets from your location.  
+Online training: Harder, Better, Faster, <span class="hljs-strong">**SAFER**</span>
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">https://www.mmesec.com/security-training</span>)
+
+<span class="hljs-bullet">  *</span> ## About MME
+
+We are specialized in security audits, user awareness, ethical hacking and
+security training. We have a no-nonsense mentality regarding cyber security
+and data protection.
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">https://www.mmesec.com/about</span>)
+
+<span class="hljs-bullet">  *</span> ## Vulnerablity Assessment Solution
+
+Because threats and vulnerabilities are constantly evolving, we strongly
+advise to perform vulnerability scans on a regular basis. IT security starts
+by facing threats and vulnerabilities!
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">https://www.mmesec.com/software/vulnerability-assessment-solution</span>)
+
+<span class="hljs-bullet">  *</span> ## Security Audits
+
+All our security audits are done with an <span class="hljs-strong">**objective approach**</span>.  
+We are independent and vendor neutral; we don't believe in a situation where
+auditor is also reseller!
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">https://www.mmesec.com/security-audits</span>)
+
+<span class="hljs-bullet">  *</span> ## Penetration Testing
+
+By performing controlled attacks, a penetration test uncovers security flaws
+in a realistic way! It makes use of <span class="hljs-strong">**ethical hacking**</span> techniques: "Like a
+hacker, but from an ethical point of view".
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">https://www.mmesec.com/audits/penetration-testing</span>)
+
+<span class="hljs-bullet">  *</span> ## Security Training
+
+The goal of our security training is to create awareness.  
+You will be equipped with the knowledge and skills necessary  
+to ensure <span class="hljs-strong">**NIS2 compliance**</span> within your company.
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">https://www.mmesec.com/training</span>)
+
+<span class="hljs-section"># Home</span>
+
+<span class="hljs-section">## Audits and training</span>
+
+MME is an independent IT company specialized in security audits, user
+awareness, penetration testing, ethical hacking and security training.
+
+All <span class="hljs-emphasis">_security audits_</span> are done with an objective approach. Our mission is to
+advise and to remediate threats and vulnerabilities. MME is independent and
+vendor neutral; we don't believe in a situation where the auditor is also a
+reseller!
+
+The goal of our <span class="hljs-emphasis">_security training_</span> is to create an awareness among students.
+You will be equipped with the knowledge and skills necessary to ensure NIS2
+compliance within your company.  
+
+![](<span class="hljs-link">/sites/default/files/images/hero_KMO.jpg</span>)
+
+<span class="hljs-section">##  Latest news</span>
+
+<span class="hljs-section">## [<span class="hljs-string">Technical Awareness Training</span>](<span class="hljs-link">/news/technical-awareness</span>)</span>
+
+In onze technical awareness opleidingen leert u niet alleen hoe hackers te
+werk gaan, maar ook hoe u zich kunt verdedigen door te denken als een hacker!
+
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">Read more about Technical Awareness Training</span>](<span class="hljs-link">/news/technical-awareness "Technical Awareness Training"</span>)
+
+<span class="hljs-section">## [<span class="hljs-string">Black Hat USA 2025</span>](<span class="hljs-link">/news/blackhat-usa</span>)</span>
+
+Ook dit jaar zal MME deelnemen aan de prestigieuze Black Hat en DEFCON
+conventies in Las Vegas. Dé plekken om te leren van de beste
+beveiligingsexperts ter wereld en om de nieuwste ontwikkelingen op het gebied
+van cybersecurity te ontdekken...
+
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">Read more about Black Hat USA 2025</span>](<span class="hljs-link">/news/blackhat-usa "Black Hat USA 2025"</span>)
+
+<span class="hljs-section">## [<span class="hljs-string">Erkend dienstverlener KMO-portefeuille</span>](<span class="hljs-link">/news/kmo-portefeuille</span>)</span>
+
+MME is nu een erkend dienstverlener voor de KMO-portefeuille, zowel voor
+cybersecurity opleiding als voor advies!
+
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">Read more about Erkend dienstverlener KMO-portefeuille</span>](<span class="hljs-link">/news/kmo-portefeuille "Erkend dienstverlener KMO-portefeuille"</span>)
+
+<span class="hljs-section">## [<span class="hljs-string">Cyber Security Training als Fast-Track</span>](<span class="hljs-link">/news/fast-track</span>)</span>
+
+Wist u dat onze cyber security trainingen ook als Fast-Track sessie kunnen
+worden georganiseerd? Door deze individuele begeleiding kunnen we het tempo
+opvoeren!
+
+<span class="hljs-bullet">  *</span> [<span class="hljs-string">Read more about Cyber Security Training als Fast-Track</span>](<span class="hljs-link">/news/fast-track "Cyber Security Training als Fast-Track"</span>)
+
+<span class="hljs-section">##  Extremely buggy</span>
+
+bWAPP, or a buggy web application, is an open source deliberately insecure web
+application developed by MME. It prepares one to conduct successful
+penetration testing and ethical hacking projects.
+
+What makes bWAPP so unique?  
+Well, it has over 100 web vulnerabilities...
+
+[<span class="hljs-string">More info</span>](<span class="hljs-link">http://31.3.96.40/software/web-security-testing-framework</span>)
+
+Security Audit • Security Training • User Awareness • Penetration Testing
+
+MME BV • Hagewindestraat 73 • B-8930 Menen  
+tel +32 56 32 75 16 • mobile +32 476 04 19 92  
+[<span class="hljs-string">info@mmesec.com</span>](<span class="hljs-link">mailto:info@mmesec.com</span>) •
+[<span class="hljs-string">www.mmesec.com</span>](<span class="hljs-link">http://www.mmesec.com</span>)  
+VAT BE 0500.562.560 • © 2010-2025 MME</code>
+    </pre>
+  </div>
+</dd>
+
+    
+  </dl>
+      </div>
+  </div>
+
+  
+
+
+  
+  
+
+
+      
+        
+  
+  
+  <div class="protocol-details">
+    <h2 id="443-TCP-HTTP">
+      <div class="pull-left">
+        <strong>HTTP</strong> 443/TCP
+      </div>
+      <div class="pull-right">
+        
+        
+          <span style="vertical-align: middle; font-size: small; font-family: 'Roboto', 'open sans', helvetica, sans-serif">09/16/2025 09:40 UTC</span>
+        
+      </div>
+      <div class="clearfix"></div>
+    </h2>
+    <div>
+    
+    
+    </div>
+    <hr>
+    <div>
+      <div class="pull-right">
+        <a class="btn btn-info btn-sm" href="https://search.censys.io/hosts/31.3.96.40/data/table?resource=hosts&amp;sort=RELEVANCE&amp;per_page=25&amp;virtual_hosts=EXCLUDE&amp;q=itsecgames.com&amp;at_time=2025-09-17T06%3A48%3A09.381Z#443-TCP-HTTP">
+          <span aria-hidden="true"></span> View All Data
+        </a>
+        
+          <a class="btn btn-info btn-sm" onclick="leavingModal('https://31.3.96.40/')">
+            <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Go
+          </a>
+        
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+  
+    
+  
+  
+    
+  <div class="host-section">
+    
+      <h4>Software</h4>
+    
+    <div class="dl-horizontal dl">
+        <h5 class="software-header">
+            
+                
+                <a class="btn btn-info btn-sm link fa fa-search" data-toggle="tooltip" data-placement="bottom" title="" aria-label="Search Censys for hosts with this software CPE" href="https://search.censys.io/search?q=services.software.uniform_resource_identifier%3A+%60cpe%3A2.3%3Aa%3Aapache%3Ahttp_server%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%60&amp;resource=hosts" data-original-title="Search Censys for hosts with this software CPE">
+                </a>
+            
+            <span>Apache
+                HTTPD
+                
+            </span>
+            
+                <a class="fa fa-external-link" href="https://nvd.nist.gov/products/cpe/search/results?namingFormat=2.3&amp;keyword=cpe%3A2.3%3Aa%3Aapache%3Ahttp_server%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A" target="__blank" rel="noopener" data-toggle="tooltip" data-placement="bottom" title="" aria-label="Search CPE catalog for this software" data-original-title="Search CPE catalog for this software">
+                </a>
+            
+        </h5>
+      </div>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  <div class="host-section">
+    
+      <h4>Details</h4>
+    
+    <div class="dl-horizontal dl">
+        <h5>https://31.3.96.40/</h5>
+  <dl>
+      <dt>Status</dt>
+      <dd>301&nbsp;&nbsp;Moved Permanently</dd>
+      
+        <dt>Redirect Location</dt>
+        <dd>https://www.mmebvba.com</dd>
+      
+    
+      
+  
+  
+
+    
+    
+    
+      
+      
+        
+      
+      
+        
+      
+      
+        
+      
+      
+         
+      
+      
+         
+      
+      
+        
+      
+      
+        
+      
+      
+        
+      
+      
+        
+      
+      
+
+      
+      
+      
+
+      
+      
+  
+    <dt>Body Hash</dt>
+    
+  <dd>
+    
+    <pre>sha1:a9de5161a5e9f0c3acff68320b5ce0d249461f45</pre>
+    
+    
+  </dd>
+
+  
+
+    
+      
+      
+
+      
+      
+      
+
+      
+      
+  
+    <dt>HTML Title</dt>
+    
+  <dd>
+    
+    <pre>301 Moved Permanently</pre>
+    
+    
+  </dd>
+
+  
+
+    
+  
+
+    
+    
+    
+      
+<dt>Response Body</dt>
+<dd>
+  <button class="btn btn-xs btn-info" style="margin-top: 0; margin-bottom: 0;" data-toggle="collapse" data-target="#sha1-a9de5161a5e9f0c3acff68320b5ce0d249461f45-443" aria-controls="sha1-a9de5161a5e9f0c3acff68320b5ce0d249461f45-443" aria-expanded="false">
+    Expand
+  </button>
+  <div class="collapse" id="sha1-a9de5161a5e9f0c3acff68320b5ce0d249461f45-443">
+    <pre>      <code class="language-markdown html2text hljs"><span class="hljs-section"># Moved Permanently</span>
+
+The document has moved [<span class="hljs-string">here</span>](<span class="hljs-link">https://www.mmebvba.com</span>).</code>
+    </pre>
+  </div>
+</dd>
+
+    
+  </dl>
+      </div>
+  </div>
+
+  
+
+
+  
+  
+    
+    
+  
+  
+    
+  <div class="host-section">
+    
+      <h4>TLS</h4>
+    
+    <div class="dl-horizontal dl">
+        <h5>Handshake</h5>
+      <dl>
+        
+  
+  
+
+    
+    
+    
+      
+      
+
+      
+      
+      
+
+      
+      
+  
+    <dt>Version Selected</dt>
+    
+  <dd>
+    
+    TLSv1_2
+    
+    
+  </dd>
+
+  
+
+    
+      
+      
+
+      
+      
+      
+
+      
+      
+  
+    <dt>Cipher Selected</dt>
+    
+  <dd>
+    
+    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+    
+    
+  </dd>
+
+  
+
+    
+      
+      
+         
+      
+      
+         
+      
+      
+         
+      
+      
+         
+      
+      
+        
+      
+      
+        
+      
+      
+        
+  
+
+      </dl>
+      
+        <h5>Certificate</h5>
+        
+        <dl>
+          <dt>Fingerprint</dt><dd><a href="https://search.censys.io/certificates/9e7276cb84903692044a0e1f9b64d1426869813b55b28167913b7e49e778f87e"><tt>9e7276cb84903692044a0e1f9b64d1426869813b55b28167913b7e49e778f87e</tt></a></dd>
+          
+            <dt>Subject</dt><dd>CN=web.mmebvba.com</dd>
+            <dt>Issuer</dt><dd>CN=web.mmebvba.com</dd>
+			
+              <dt>Names</dt>
+              <dd>
+                
+                  web.mmebvba.com
+                
+              </dd>
+			
+          
+        </dl>
+      
+      
+        <h5>Fingerprint</h5>
+        <dl>
+          
+            
+  
+    <dt>JARM</dt>
+    
+  <dd>
+    <a href="https://search.censys.io/search?q=services.jarm.fingerprint%3A+07d10d11d21d21d07c07d10d07d21dc74a10f0dd8921b3cc912d3ee25ffd0a&amp;resource=hosts" target="_self">
+    07d10d11d21d21d07c07d10d07d21dc74a10f0dd8921b3cc912d3ee25ffd0a
+    </a>
+    
+  </dd>
+
+  
+
+          
+          
+            
+  
+    <dt>JA3S</dt>
+    
+  <dd>
+    <a href="https://search.censys.io/search?q=services.tls.ja3s%3A+ccc514751b175866924439bdbb5bba34&amp;resource=hosts" target="_self">
+    ccc514751b175866924439bdbb5bba34
+    </a>
+    
+  </dd>
+
+  
+
+          
+          
+            
+  
+    <dt>JA4S</dt>
+    
+  <dd>
+    <a href="https://search.censys.io/search?q=services.tls.ja4s%3A+t120300_c02f_bec8bdbaef8a&amp;resource=hosts" target="_self">
+    t120300_c02f_bec8bdbaef8a
+    </a>
+    
+  </dd>
+
+  
+
+          
+        </dl>
+      </div>
+  </div>
+
+  
+
+  
+
+
+      
+
+      
+
+      
+      
+      
+    </div>
+
+    <div class="col-md-4 host-details enrichments">
+      
+      
+        
+        <div id="map-canvas">
+          <iframe title="Google Map View" width="100%" height="100%" frameborder="0" style="border:0" src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/place.html" allowfullscreen=""></iframe>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h4>Geographic Location</h4>
+              <dl class="dl dl-horizontal dl-hostbox">
+                
+  
+    <dt>City</dt>
+    
+  <dd>
+    
+    Amsterdam
+    
+  </dd>
+
+  
+
+                
+  
+    <dt>Province</dt>
+    
+  <dd>
+    
+    North Holland
+    
+  </dd>
+
+  
+
+                
+  
+    <dt>Country</dt>
+    
+  <dd>
+    
+    Netherlands (NL)
+    
+  </dd>
+
+  
+
+                
+                  
+  
+    <dt>Coordinates</dt>
+    
+  <dd>
+    
+    52.37403, 4.88969
+    
+  </dd>
+
+  
+
+                
+                
+  
+    <dt>Timezone</dt>
+    
+  <dd>
+    
+    Europe/Amsterdam
+    
+  </dd>
+
+  
+
+              </dl>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+
+  </div>
+
+  </div>
+
+  </div> <!-- /belowsearchbarcontent -->
+
+    </div>
+    
+
+<footer>
+  <div class="footer__container container">
+    <div class="row">
+      <div class="col-md-6 left">
+        <span class="part">
+          <a href="https://censys.com/resources/" target="_blank" rel="noopener">Resource Hub</a>
+        </span>
+        •
+        <span class="part">
+          <a href="https://censys.com/attack-surface-management/" target="_blank" rel="noopener">Attack Surface Management</a>
+        </span>
+        •
+        <span class="part">
+          <a href="https://censys.com/federal/" target="_blank" rel="noopener">Government</a>
+        </span>
+        •
+        <span class="part">
+          <a href="https://support.censys.io/hc/en-us/articles/360038761891-Research-Access-to-Censys-Data" target="_blank" rel="noopener">Research Access</a>
+        </span>
+      </div>
+      <div class="col-md-6 right">
+        <span class="part">
+          Need Help?
+          <a href="https://support.censys.io/" target="_blank" rel="noopener">Help Center</a>
+          or
+          <a href="mailto:support@censys.io">support@censys.io</a>
+        </span>
+        |
+        <span class="part">
+            © 2025 Censys
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+    <!-- Scripts -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script charset="utf-8" src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/bootstrap.min.js"></script>
+    <script src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/material.min.js"></script>
+    <script src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/material-kit.min.js" type="text/javascript"></script>
+    <script src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/highlight.min.js"></script>
+    <script>
+    // If hljs is defined
+    if (typeof hljs !== 'undefined') {
+      // Highlight all code blocks
+      hljs.highlightAll();
+    }
+    </script>
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $('#quota-alert').on('closed.bs.alert', function () {
+            $.post("https://search.censys.io/account/_dismiss_quota_alert",
+                {"csrf_token": "484da9f217334f2e246399670742030b18e39a7c"},
+                function (result) { }
+            );
+        });
+    });
+    </script>
+
+    
+  
+  
+  
+
+  <script>
+    // Fixes Settings modal so that clicking options doesn't automatically close it.
+    $(document).on('click', '#search-settings .dropdown-menu', function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('click', '#export-query .dropdown-menu-right', function (e) {
+      e.stopPropagation();
+    });
+
+    // Event handler for closing the index picker dropdown when tab
+    // focus moves away from the dropdown or the dropdown button
+    $(document).on('blur', '#index-picker', function (e) {
+      var currentFocus = e.relatedTarget;
+      var newFocusContained = $.contains(document.getElementById('index-picker'), currentFocus)
+      var indexPickerOpen = $("#index-picker").hasClass('open')
+
+      // Focus will be null if the menu is being navigated by mouse cursor.
+      // We don't want to automatically close the menu in such case
+      if (currentFocus !== null && !newFocusContained && indexPickerOpen) {
+        // If we're focusing away from the dropdown and the dropdown is
+        // opened, then close the dropdown by toggling the state
+        $("#NavBar__search-index-picker").dropdown('toggle');
+      }
+    });
+
+    // Event handler for closing the search settings dropdown when tab
+    // focus moves away from the dropdown or the dropdown button
+    $(document).on('blur', '#search-settings', function (e) {
+      var currentFocus = e.relatedTarget;
+      var newFocusContained = $.contains(document.getElementById('search-settings'), currentFocus)
+      var searchSettingsOpen = $("#search-settings").hasClass('open')
+
+      // Focus will be null if the menu is being navigated by mouse cursor.
+      // We don't want to automatically close the menu in such case
+      if (currentFocus !== null && !newFocusContained && searchSettingsOpen) {
+        // If we're focusing away from the dropdown and the dropdown is
+        // opened, then close the dropdown by toggling the state
+        $("#search-settings-dropdown-menu").dropdown('toggle');
+      }
+    });
+
+    // Event handler for closing the query export dropdown when tab
+    // focus moves away from the dropdown or the dropdown button
+    $(document).on('blur', '#export-query', function (e) {
+      var currentFocus = e.relatedTarget;
+      var newFocusContained = $.contains(document.getElementById('export-query'), currentFocus)
+      var exportQueryOpen = $("#export-query").hasClass('open')
+
+      // Focus will be null if the menu is being navigated by mouse cursor.
+      // We don't want to automatically close the menu in such case
+      if (currentFocus !== null && !newFocusContained && exportQueryOpen) {
+        // If we're focusing away from the dropdown and the dropdown is
+        // opened, then close the dropdown by toggling the state
+        $("#export-query-dropdown-menu").dropdown('toggle');
+      }
+    });
+
+    $("#search").submit(function(e) {
+      let cacheOff = $("#bypass_cache_off");
+      if (cacheOff.length > 0 && cacheOff.is(":checked")) {
+        cacheOff.attr("disabled", true);
+      }
+    });
+
+    function updateMainFromMulti() {
+      // View other icons: https://stackoverflow.com/a/18931703/6909734
+      $("#q").val($("#qm").val().replace(/\n/g, " \u21A9 "));
+    }
+
+    $("#qm").keydown(function(event) {
+      if (event.keyCode == 13 && event.shiftKey) {
+        event.preventDefault();
+        $("#search").submit();
+      }
+    });
+
+    $("#qm").keyup(function() {
+      updateMainFromMulti();
+    });
+
+    $("#q").focus(function(e) {
+      // Hide expanded form when search bar is clicked
+      var multiSearchForm = $("#msf");
+      if (!multiSearchForm.hasClass("hide-on-mobile hide-on-desktop")) {
+        $("#multiline-toggle").click()
+      }
+    });
+
+    $("#clear-query-button").click(function(e) {
+      e.preventDefault();
+      $("#q").val("");
+      $("#qm").val("");
+      $("#q").focus();
+    });
+
+    $("#multiline-toggle").click(function(e) {
+      e.preventDefault();
+      var multiSearchForm = $("#msf");
+      var multiToggleButton = $("#multiline-toggle");
+      var mainSearchBar = $("#q");
+      var multiSearchBar = $("#qm");
+      var expandIcon = $("#expand-icon");
+      if (multiSearchForm.hasClass("hide-on-mobile hide-on-desktop")) {
+          // do expand
+          expandIcon.attr("class", "fa fa-compress");
+          multiSearchForm.attr("class", "NavBar__multi-search-form");
+          multiToggleButton.attr("class", "NavBar__search-multiline-toggle-enabled focus-outline");
+          mainSearchBar.attr("readonly", true);
+          mainSearchBar.css("color", "#cbcbcb");
+          var mainQuery = mainSearchBar.val();
+          if (multiSearchBar.val() !== mainQuery || mainQuery.includes(" \u21A9 ")) {
+              multiSearchBar.val(mainQuery.replaceAll(" \u21A9 ", "\r\n"));
+          }
+          multiSearchBar.focus();
+          // If there aren't autocomplete suggestions,
+          // the textarea won't expand right away without this !
+          multiSearchBar.css("height", "50px");
+      } else {
+          // do shrink
+          expandIcon.attr("class", "fa fa-expand");
+          multiSearchForm.attr("class", "hide-on-mobile hide-on-desktop");
+          multiToggleButton.attr("class", "NavBar__search-multiline-toggle focus-outline");
+          mainSearchBar.attr("readonly", false);
+          mainSearchBar.css("color", "black");
+          mainSearchBar.focus();
+      }
+    });
+
+    // Grow size of multiline box dynamically
+    function textAreaAdjust(element){
+      // This redundant assignment is necessary
+      // or the input won't shrink when removing lines of text.
+      // -- minimum size of 50 to make it clear the box can expand.
+      element.style.height = "50px";
+      element.style.height = Math.min(200, element.scrollHeight)+"px";
+    }
+
+    function createRedirectURL() {
+      var url = new URL(window.location.href);
+      var params = new URLSearchParams(url.search);
+      var resource = $('#resource').val()
+      params.set("resource", resource);
+      params.delete("cursor");
+
+      // Handle redirects AWAY from legacy certs pages
+      if (url.pathname.includes('/certificates-legacy')) {
+        if (url.pathname.includes('definitions')) {
+          url.pathname = '/search/definitions'
+        } else if (url.pathname.includes('examples')) {
+          url.pathname = '/search/examples'
+        } else if (url.pathname.includes('help')) {
+          url.pathname = '/search/language'
+        } else if (url.pathname.includes('report')) {
+          url.pathname = 'search/report'
+        } else {
+          url.pathname = '/search'
+          if (!params.has("q")) {
+            params.set("q", $('#q').val())
+          }
+        }
+      // Handle redirect TO legacy certificates pages
+      } else if (resource === 'certificates-legacy') {
+        if (url.pathname.includes('definitions')) {
+          url.pathname = '/certificates-legacy/help/definitions'
+        } else if (url.pathname.includes('examples')) {
+          url.pathname = '/certificates-legacy/help/examples'
+        } else if (url.pathname.includes('language')) {
+          url.pathname = '/certificates-legacy/help'
+        } else if (url.pathname.includes('report')) {
+          url.pathname = '/certificates-legacy/report'
+        } else {
+          url.pathname = '/certificates-legacy' // results
+          if (!params.has("q")) {
+            params.set("q", $('#q').val())
+          }
+        }
+      }
+
+      if (url.pathname.includes('/certificates/') || url.pathname.includes('/hosts/')) {
+        url.pathname = '/search'
+        if (!params.has("q")) {
+          params.set("q", $('#q').val())
+        }
+      }
+
+      url.search = params.toString();
+      return url;
+    }
+
+    $('#dropdown-host').click(function(e) {
+      $('#resource').attr('value', 'hosts');
+      
+          var newURL = createRedirectURL()
+          window.location.replace(newURL.toString());
+      
+    })
+
+
+    $('#dropdown-certificates-legacy').click(function(e) {
+      $('#resource').attr('value', 'certificates-legacy');
+      
+        var newURL = createRedirectURL()
+        window.location.replace(newURL.toString());
+      
+    })
+
+    $('#dropdown-certificates').click(function(e) {
+      $('#resource').attr('value', 'certificates');
+      
+        var newURL = createRedirectURL()
+        window.location.replace(newURL.toString());
+      
+    })
+  </script>
+
+  
+<script charset="utf-8" src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/jquery.autocomplete.min.js"></script>
+
+<script>
+  function logicSuggestion(statement) {
+    return {
+      data: {
+        category: "<i class=\"fa fa-fw fa-toggle-on\" aria-hidden=\"true\"></i> Boolean Logic",
+      },
+      value: statement,
+    };
+  }
+
+  function serviceNameSuggestion(serviceName) {
+    return {
+      data: {
+        category: "<i class=\"fa fa-fw fa-server\" aria-hidden=\"true\"></i> Service Name",
+      },
+      value: serviceName,
+    };
+  }
+
+  function _lookupFilter(suggestion, originalQuery, queryLowerCase) {
+    return suggestion.value.toLowerCase().indexOf(queryLowerCase) !== -1;
+  };
+
+  var serviceNameSuggestions = $.map(["HTTP", "SSH", "SMTP", "FTP", "DNS"], serviceNameSuggestion);
+  var logicSuggestions = $.map(["and", "or"], logicSuggestion);
+  var urls = {
+    "hosts": "https://search.censys.io/static/data/autocomplete-hosts.json?version=925fc5168bb6338c8d0cb8e57bd8cd88",
+    "certificates-legacy": "https://search.censys.io/static/data/autocomplete-certificates.json?version=e7defab6f2a77da0b9230d823fb97ae7",
+  };
+
+  var fieldSuggestions = {};
+  var resource = $('#resource').val()
+  var resources = [
+    'certificates-legacy',
+    'hosts',
+  ]
+
+  resources.forEach(function(val, index) {
+    $.ajax({
+      url: urls[val],
+      success: function (data) {
+        if (data === undefined) {
+          return;
+        }
+        fieldSuggestions[val] = data.data;
+      }
+    });
+  })
+
+  function beforeRenderCallback(elemId, isMultiline) {
+    return function (_, suggestions) {
+      if (isMultiline) {
+        // Adjust size before displaying autcomplete, or
+        // Suggestions will sometimes be offset
+        textAreaAdjust(this);
+      }
+      if (suggestions) {
+        $(elemId).css("border-bottom-left-radius", "0pt");
+      }
+    }
+  }
+
+  function onHideCallback(elemId) {
+    return function (_) {
+      $(elemId).css("border-bottom-left-radius", "4pt");
+    }
+  }
+
+  function onSelectCallback(isMultiline) {
+    return function (_) {
+      this.focus();
+      this.value = this.value;
+
+      if (isMultiline) {
+        updateMainFromMulti();
+      }
+    }
+  }
+
+  function BindAutocomplete() {
+    var resource = $('#resource').val()
+
+    var opts = {
+      serviceUrl: "/api/ui/suggestions",
+      params: {resource: resource},
+      deferRequestBy: 80,
+    };
+    
+    $("#q").focus();
+
+    $("#q").autocomplete({
+      ...opts,
+      maxHeight: 600,
+      tabDisabled: true,
+      delimiter: /:|\s/gmi,
+      beforeRender: beforeRenderCallback("#q", false),
+      onHide:       onHideCallback("#q"),
+      onSelect:     onSelectCallback(false),
+    });
+
+    $("#qm").autocomplete({
+      ...opts,
+      maxHeight: 600,
+      tabDisabled: true,
+      delimiter: /:|\s/gmi,
+      beforeRender: beforeRenderCallback("#qm", true),
+      onHide:       onHideCallback("#qm"),
+      onSelect:     onSelectCallback(true),
+    });
+  }
+  
+  // Create click handlers to re-bind the autocompelete options
+  // When a new resource type is selected
+  $('#dropdown-host').click(function(e) {
+    BindAutocomplete();
+  });
+
+  $('#dropdown-certificates').click(function(e) {
+    BindAutocomplete();
+  });
+  
+  // Bind the autocomplete to the initial page state
+  BindAutocomplete();
+</script><div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 600px; z-index: 9999; top: 1435.5px; left: 399.517px; width: 523.333px;"></div><div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 600px; z-index: 9999;"></div>
+
+
+
+
+
+    
+  
+  
+    
+  
+  
+<script>
+// Generate Random Color
+function getRandomColor() {
+  const letters = "0123456789ABCDEF";
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+// Escape HTML Map
+var ENTITY_MAP = {
+  "&": "&amp;",
+  "<": "&lt;",
+  ">": "&gt;",
+  '"': "&quot;",
+  "'": "&#39;",
+  "/": "&#x2F;",
+  "`": "&#x60;",
+  "=": "&#x3D;",
+};
+
+// Escape HTML
+function escapeHtml(string) {
+  return String(string).replace(/[&<>"'`=\/]/g, function (s) {
+    return ENTITY_MAP[s];
+  });
+}
+
+// Loads added tags
+var tags = [];
+var enabledTags = $.map(tags, function (tag) {
+  return tag.name;
+});
+
+// Modal Error Handling
+var showError = function (message) {
+  $("#tag-error").find(".error-contents").html(message);
+  $("#tag-error").show();
+};
+var hideError = function () {
+  $("#tag-error").hide();
+};
+
+// Add Tag Modal
+var addTagModal = function () {
+  // Open modal
+  setModalContent(`<div class="modal-header">
+    <h5 class="modal-title" id="modalLabel">Add Tag</h5>
+  </div>
+  <div class="modal-body">
+    <form id="add-tag-form">
+      <div class="form-group">
+        <input class="form-control" type="text" id="tag-name" name="tag-name" placeholder="Tag Name" required>
+        <span class="material-input"></span>
+      </div>
+      <div class="form-group" id="color-group" style="display: none;">
+        <label for="tag-color" class="control-label">Color</label>
+        <div>
+          <input type="color" id="tag-color" name="tag-color" value=${getRandomColor()}>
+        </div>
+      </div>
+      <small>
+        <span id="tag-error" style="display: none;">
+          <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+          <span class="error-contents"></span>
+        </span>
+      </small>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-default" data-dismiss="modal">Cancel</button>
+    <button class="btn btn-primary" id="submit-add-tag" disabled>Add Tag</button>
+  </div>`);
+
+  $("#tag-name").focus();
+
+  // Handle submissions
+  $("#add-tag-form").submit(function (event) {
+    if ($("#tag-name").val() === "") {
+      showError("Tag name cannot be empty");
+    } else if (enabledTags.indexOf($("#tag-name").val()) !== -1) {
+      showError("Tag already added");
+    } else {
+      hideError();
+      submitAddTag();
+    }
+
+    event.preventDefault();
+    return false;
+  });
+
+  $("#submit-add-tag").click(function () {
+    $("#add-tag-form").submit();
+  });
+
+  loadAutoCompleteTags();
+};
+
+function e(xhr) {
+  switch (xhr.status) {
+    case 429:
+      // Login
+      window.location.replace(
+        "/login?came_from=" + window.location.pathname + window.location.search
+      );
+      break;
+
+    default:
+      showError("An error occurred");
+  }
+}
+
+function addTag(tagId) {
+  $.ajax({
+    type: "PUT",
+    url: `https://search.censys.io/api/v2/hosts/31.3.96.40/tags/${tagId}`,
+    success: function (result) {
+      window.location.reload(true);
+    },
+    error: e,
+  });
+}
+
+function submitAddTag() {
+  var tagName = $("#tag-name").val();
+  var tagToAdd = $.grep(tags, function (tag) {
+    return tag.name.toLowerCase() === tagName.toLowerCase();
+  });
+  if (tagToAdd.length) {
+    tagToAdd = tagToAdd[0];
+    var tagId = tagToAdd.id;
+  } else {
+    showError("No tag with that name.");
+    return;
+  }
+  addTag(tagId);
+}
+
+function removeTag(tagId) {
+  $.ajax({
+    type: "DELETE",
+    url: `https://search.censys.io/api/v2/hosts/31.3.96.40/tags/${tagId}`,
+    success: function (result) {
+      window.location.reload(true);
+    },
+    error: e,
+  });
+}
+
+function submitCreateTag() {
+  $.ajax({
+    type: "POST",
+    url: "https://search.censys.io/api/v2/tags",
+    data: JSON.stringify({
+      name: $("#tag-name").val(),
+      metadata: {
+        color: $("#tag-color").val(),
+      },
+    }),
+    contentType: "application/json",
+    success: function (res) {
+      addTag(res.result.id);
+      window.location.reload(true);
+    },
+    error: e,
+  });
+}
+
+function loadAutoCompleteTags() {
+  $.ajax({
+    type: "GET",
+    url: "https://search.censys.io/api/v2/tags",
+    success: function (data) {
+      tags = data.result.tags;
+      var availableTags = tags.filter(function (tag) {
+        return enabledTags.indexOf(tag.name) === -1;
+      });
+      var availableTagsNames = availableTags.map(function (tag) {
+        return tag.name;
+      });
+      var tagsSuggestions = $.map(availableTags, function (tag) {
+        return {
+          value: tag.name,
+          data: tag.id,
+        };
+      });
+
+      function handleTagSelect() {
+        var submitTagBtn = $("#submit-add-tag"),
+            colorGroup = $("#color-group"),
+            tagName = $("#tag-name").val();
+        if (tagName === "") {
+          hideError();
+          colorGroup.hide();
+          submitTagBtn.html("Add Tag").prop("disabled", true);
+          submitTagBtn.unbind("click").click(function () {
+            $("#add-tag-form").submit();
+          });
+        } else if (enabledTags.indexOf(tagName) !== -1) {
+          showError("Tag already added");
+          colorGroup.hide();
+          submitTagBtn.html("Add Tag").prop("disabled", true);
+          submitTagBtn.unbind("click").click(function () {
+            $("#add-tag-form").submit();
+          });
+        } else if (availableTagsNames.indexOf(tagName) === -1) {
+          hideError();
+          colorGroup.show();
+          submitTagBtn.html("Create New Tag").prop("disabled", false);
+          submitTagBtn.unbind("click").click(function () {
+            submitCreateTag();
+          });
+        } else {
+          hideError();
+          colorGroup.hide();
+          submitTagBtn.html("Add Tag").prop("disabled", false);
+          submitTagBtn.unbind("click").click(function () {
+            $("#add-tag-form").submit();
+          });
+        }
+      }
+
+      $("#tag-name")
+        .autocomplete({
+          lookup: tagsSuggestions,
+          minChars: 0,
+          onSelect: handleTagSelect,
+          formatResult: function (suggestion, currentValue) {
+            return escapeHtml(suggestion.value);
+          },
+        })
+        .on("keyup", handleTagSelect);
+    },
+    error: e,
+  });
+}
+</script>
+
+  
+
+  <script>
+    // Modal
+      var setModalContent = function(data, options={}) {
+        var modal = $('#hostModal');
+        modal.find('.modal-content').html(data);
+        modal.modal(options);
+      };
+      var leavingModal = function(link) {
+        setModalContent(`<div class="modal-header">
+          <h5 class="modal-title" id="modalLabel">Are you sure?</h5>
+        </div>
+        <div class="modal-body">
+          It may not be safe to visit
+          <code>${link}</code>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button class="btn btn-primary" onclick="window.open('${link}', '_blank', 'noopener noreferrer');$('#hostModal').modal('hide');">Proceed</button>
+        </div>`);
+      };
+  </script>
+
+  
+  
+
+
+  
+<script src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/easymde.min.js"></script>
+<script src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/purify.min.js"></script>
+<script>
+let currentCommentId = null;
+var easyConfig = {
+  placeholder: "Comment...",
+  toolbar: [
+    "bold",
+    "italic",
+    "heading",
+    "unordered-list",
+    "code",
+    "link",
+    "image",
+    "preview",
+    "guide",
+  ],
+  spellChecker: false,
+  insertTexts: {
+    image: ["![](https://", ")"],
+    link: ["[", "](https://)"],
+  },
+  renderingConfig: {
+    singleLineBreaks: false,
+    codeSyntaxHighlighting: true,
+    sanitizerFunction: function (renderedHTML) {
+      return DOMPurify.sanitize(renderedHTML);
+    },
+  },
+};
+
+var easyMDE = new EasyMDE({
+  element: $("#markdown")[0],
+  ...easyConfig,
+});
+
+$("#comments")
+  .find($(".comment-content"))
+  .each(function () {
+    var $this = $(this);
+    $this.html(easyMDE.markdown($this.text()));
+  });
+
+// Convert the RFC3339 String to the User's Local Time
+$("#comments")
+  .find(".comment-time")
+  .each(function () {
+    $(this).html(new Date($(this).html()).toLocaleString());
+  });
+
+$("#comment-form").submit(function (event) {
+  if (currentCommentId != null) {
+    return submitEditComment(event);
+  }
+  if (easyMDE.value() === "") {
+    $("#comment-error").find(".error-contents").html("Comment cannot be empty");
+    $("#comment-error").show();
+  } else {
+    $("#comment-error").hide();
+    submitComment(event);
+  }
+
+  event.preventDefault();
+  return false;
+});
+
+function e(xhr) {
+  switch (xhr.status) {
+    case 429:
+      window.location.replace(
+        "/login?came_from=" + window.location.pathname + window.location.search
+      );
+      break;
+
+    default:
+      $("#comment-error").find(".error-contents").html("An error has occurred");
+      $("#comment-error").show();
+  }
+}
+
+function submitComment(event) {
+  $.ajax({
+    type: "POST",
+    url: "https://search.censys.io/api/v2/hosts/31.3.96.40/comments",
+    data: JSON.stringify({
+      contents: easyMDE.value(),
+    }),
+    contentType: "application/json",
+    success: function (result) {
+      window.location.hash = "#comments";
+      window.location.reload(true);
+    },
+    error: e,
+  });
+
+  event.preventDefault();
+  return false;
+}
+
+function submitEditComment(event) {
+  $.ajax({
+    type: "PUT",
+    url: `https://search.censys.io/api/v2/hosts/31.3.96.40/comments/${currentCommentId}`,
+    data: JSON.stringify({
+      contents: easyMDE.value(),
+    }),
+    contentType: "application/json",
+    success: function (res) {
+      window.location.hash = "#comments";
+      window.location.reload(true);
+    },
+    error: e,
+  });
+
+  event.preventDefault();
+  return false;
+}
+
+function editComment(event) {
+  var $this = $(this);
+  var $commentRow = $this.closest(".comment-row");
+  var $commentFormRow = $("#comment-form-row");
+  var commentId = $commentRow.attr("id");
+
+  if (currentCommentId != null) {
+    $("#" + currentCommentId).show();
+    currentCommentId = null;
+  }
+
+  $.ajax({
+    type: "GET",
+    url: `https://search.censys.io/api/v2/hosts/31.3.96.40/comments/${commentId}`,
+    success: function (res) {
+      currentCommentId = commentId;
+      easyMDE.value(res.result.contents);
+      $commentFormRow.insertAfter($commentRow);
+      $commentRow.hide();
+      $("#comment-submit-button")
+        .val("Save Comment")
+        .attr("title", "Save Comment");
+      $("#comment-cancel-button").show();
+    },
+    error: e,
+  });
+
+  event.preventDefault();
+}
+
+$("#comment-cancel-button").click(function (e) {
+  easyMDE.value("");
+  var $commentFormRow = $("#comment-form-row");
+  $commentFormRow.appendTo($(".comment-row").parent());
+  $("#" + currentCommentId).show();
+  $("#comment-submit-button").val("Add Comment").attr("title", "Add Comment");
+  $("#comment-cancel-button").hide();
+  currentCommentId = null;
+});
+
+$(".edit-comment").click(editComment);
+
+function deleteComment() {
+  if (currentCommentId == null) {
+    return;
+  }
+
+  $.ajax({
+    type: "DELETE",
+    url: `https://search.censys.io/api/v2/hosts/31.3.96.40/comments/${currentCommentId}`,
+    success: function (result) {
+      window.location.hash = "#comments";
+      window.location.reload(true);
+    },
+    error: e,
+  });
+}
+
+function openDeleteConfirmation(event) {
+  var $this = $(this);
+  var $commentRow = $this.closest(".comment-row");
+  currentCommentId = $commentRow.attr("id");
+  $("#deleteCommentModal").modal();
+  event.preventDefault();
+}
+
+$(".delete-comment").click(openDeleteConfirmation);
+</script>
+
+
+
+    
+
+
+<script async="" src="31.3.96.40%20-%20Host%20Summary%20-%20Censys_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('gtm.start', new Date());
+  gtag('config', 'GTM-NT95GRXZ')
+  
+</script>
+  
+</body></html>
